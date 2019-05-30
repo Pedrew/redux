@@ -1,0 +1,7 @@
+<div id="header">
+  <h1>Hello</h1>
+  <div id="links">
+    <a hred="/dashboard"> {{ greetMessage }}</a>
+    <a *ngIf="logout" href="/logout">Logout</a>
+    <a *ngIf="!logout" href="/login">Login</a>
+  </div>
